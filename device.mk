@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/Infinix/X689
+LOCAL_PATH := device/tecno/CH6
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -65,7 +65,8 @@ PRODUCT_PACKAGES += \
     
 # Fastbootd
 PRODUCT_PACKAGES += \
-    android.hardware.fastboot@1.0-impl-mock
+    android.hardware.fastboot@1.0-impl-mock \
+    android.hardware.fastboot@1.0-imp-recovery
     
 # Health Hal
 PRODUCT_PACKAGES += \

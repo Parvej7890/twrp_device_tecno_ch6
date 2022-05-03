@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/Infinix/X689
+DEVICE_PATH := device/tecno/CH6
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -63,7 +63,7 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := X689,X689B
+TARGET_OTA_ASSERT_DEVICE := TECNO-CH6,TECNO-CH6n
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
@@ -145,7 +145,7 @@ TW_INCLUDE_NTFS_3G := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_MAX_BRIGHTNESS := 2047
-TW_DEFAULT_BRIGHTNESS := 1200
+TW_DEFAULT_BRIGHTNESS := 900
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
 TARGET_USES_MKE2FS := true
@@ -162,7 +162,7 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
 # TW Version
-TW_DEVICE_VERSION := Infinix Hot 10s™ 
+TW_DEVICE_VERSION := BY VERGIL PAMPANGA 
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31

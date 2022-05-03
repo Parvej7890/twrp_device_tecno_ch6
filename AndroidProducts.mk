@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_X689.mk
+     $(LOCAL_DIR)/twrp_CH6.mk
